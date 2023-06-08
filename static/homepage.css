@@ -1,0 +1,26 @@
+.navbar{
+    background-color: black;
+  }
+
+.mainImage{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#title{
+    font-size: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    z-index: 20;
+}
+
+#btnq:hover{
+    background-color: #ffbb00;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
