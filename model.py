@@ -11,8 +11,8 @@ class Quotes(db.Model):
     project_id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     project_name = db.Column(db.String(100), nullable=False)
     project_description = db.Column(db.String(500), nullable=False)
-    budget = db.Column(db.Integer(200), nullable=False)
-    start_date = db.Column(db.Date(200), nullable=False)
+    budget = db.Column(db.String(200), nullable=False)
+    start_date = db.Column(db.Date(), nullable=False)
 
     def __repr__(self):
         """Provide helpful representation when printed."""
