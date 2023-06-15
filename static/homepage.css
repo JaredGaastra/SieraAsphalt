@@ -47,7 +47,6 @@
 
 
 .mainImage{
-    display: flex;
     align-self: flex-start;
     align-items: center;
     justify-content: center;
@@ -101,3 +100,9 @@
     padding-top: 5px;
 }
 
+.main-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
